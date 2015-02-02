@@ -1,3 +1,3 @@
 # JDFrancis
-lyle.smu.edu/~jdfrancis/index.html
+http://lyle.smu.edu/~jdfrancis/index.html
 
