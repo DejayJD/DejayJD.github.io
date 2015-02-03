@@ -10,29 +10,28 @@
          url('../font/fontin-smallcaps-webfont.svg#fontin_smallcapssmallcaps') format('svg');
     font-weight: normal;
     font-style: normal;
+
 }
 @font-face 
 {
     font-family: 'fontinregular';
-    src: url('fontin-regular-webfont.eot');
-    src: url('fontin-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fontin-regular-webfont.woff2') format('woff2'),
-         url('fontin-regular-webfont.woff') format('woff'),
-         url('fontin-regular-webfont.ttf') format('truetype'),
-         url('fontin-regular-webfont.svg#fontinregular') format('svg');
-    font-weight: normal;
+    src: url('../font/fontin-regular-webfont.eot');
+    src: url('../font/fontin-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/fontin-regular-webfont.woff2') format('woff2'),
+         url('../font/fontin-regular-webfont.woff') format('woff'),
+         url('../font/fontin-regular-webfont.ttf') format('truetype'),
+         url('../font/fontin-regular-webfont.svg#fontinregular') format('svg');
+    font-weight: lighter;
     font-style: normal;
-
 }
 
-#navwrapper
+#navbar
 {
 	position:absolute;
 	top:0%;
 	left:0%;
 	min-width:100%;
 	background-color: #353C3F;
-	background-size: 20px 20px;
 	min-height:65px;
 	border-bottom: groove;
 	border-bottom-width:3.5px;
@@ -43,10 +42,18 @@
 {
 	position:absolute;
 	top:0.5%;
-	left:1%;
+	left:0.8%;
+	border-radius:5px;
 	max-width:285px;
+	-webkit-transition:box-shadow 0.3s;
 }
-#navleft
+.logo:hover
+{
+	-webkit-box-shadow: 0px 0px 7px 2px rgba(0,0,0,1);
+	-moz-box-shadow: 0px 0px 7px 2px rgba(0,0,0,1);
+	box-shadow: 0px 0px 7px 2px rgba(0,0,0,1);
+}
+#navbar-left
 {
 	margin-top:10px;
 	position:absolute;
@@ -75,6 +82,7 @@ a.navlist:link, a.navlist:visited
 	font-size:25px;
 	color:white;
 	text-decoration: none;
+	-webkit-transition:background-color 0.3s;
 }
 a.navlist:hover, a.navlist:active 
 {
@@ -87,7 +95,8 @@ body
 	padding-top: 50px;
 	font-size: 16px;
 	color:white;
-	font-family:'fontin';
+	text-shadow: 1px 1px #545454;
+	font-family:'fontinregular';
 	background-image:url("../img/7.jpg");
 	background-size:85% auto;
 	background-color:black;
@@ -114,17 +123,12 @@ body
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius:15px;
+	-webkit-transition:box-shadow 0.3s;
 	outline:none;
 }
-
-.container
+.searchbox input:hover
 {
-	position:fixed;
-	top:10.2%;
-	right:0;
-	opacity:0.6;
-	min-width:35%;
-	min-height:1400px;
-	outline:2px;
-	outline-color:black;
+	-webkit-box-shadow: 0px 0px 7px 2px rgba(255,255,255,1);
+	-moz-box-shadow: 0px 0px 7px 2px rgba(255,255,255,1);
+	box-shadow: 0px 0px 7px 2px rgba(255,255,255,1);
 }
