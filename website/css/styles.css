@@ -62,7 +62,7 @@
 #navbar-right
 {
 	position:absolute;
-	left:81%;
+	left:75%;
 	top:0%;
 }
 .navelement
@@ -95,7 +95,6 @@ body
 	padding-top: 50px;
 	font-size: 16px;
 	color:white;
-	text-shadow: 1px 1px #545454;
 	font-family:'fontinregular';
 	background-image:url("../img/7.jpg");
 	background-size:85% auto;
@@ -126,7 +125,25 @@ body
 	-webkit-transition:box-shadow 0.3s;
 	outline:none;
 }
-.searchbox input:hover
+.searchbox input:hover, input#active
+{
+	-webkit-box-shadow: 0px 0px 7px 2px rgba(255,255,255,1);
+	-moz-box-shadow: 0px 0px 7px 2px rgba(255,255,255,1);
+	box-shadow: 0px 0px 7px 2px rgba(255,255,255,1);
+}
+button
+{
+	width:350px;
+	height:50px;
+	border:none;
+	font-weight: bold;
+	background-color:#FFFFFF;
+	font-family:"fontinregular";
+	font-size:25px;
+	border-radius:15px;
+	outline:none
+}
+button:hover, button#active
 {
 	-webkit-box-shadow: 0px 0px 7px 2px rgba(255,255,255,1);
 	-moz-box-shadow: 0px 0px 7px 2px rgba(255,255,255,1);
