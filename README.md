@@ -1,3 +1,3 @@
 # JDFrancis
-http://lyle.smu.edu/~jdfrancis/index.html
+http://dejayjd.github.io/index.html
 
