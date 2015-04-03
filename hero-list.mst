@@ -1,0 +1,5 @@
+<div class = 'right-container'> 
+	{{#heroes}}
+		<a style="text-decoration:none; outline:none; color:white"href="#heroes-{{id}}"><div class = "hero-block">Hero Name: {{name}}</div></a>
+	{{/heroes}}
+</div>

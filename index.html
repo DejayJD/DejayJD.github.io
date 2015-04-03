@@ -4,27 +4,29 @@
 <head>
 	<title> Dota2Drafts: A DotA Strategy Site </title>
 	<!-- Latest compiled and minified CSS -->
-	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+	<!-- My Custom Styles -->
 	<link rel="stylesheet" type="text/css" href="website/css/styles.css">
-	<!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> -->
 </head>
 
 <body>
-	<div id="navbar">
-		<div id="navbar-left"></div>
-		<ul id="navbar-right">
-			<li class="navelement"><a class="navlist" href="website/heroes.html">Heroes</a></li>
-			<li class="navelement"><a class="navlist" href="website/draft.html">Draft</a></li>
-		</ul>
-	</div>
-	<a class="logo" href="index.html"><img src="website/img/logo.jpg" class="logo" alt=""></a>
-	<div class = "right-container">
-		<h2>Search for Heroes now!</h2>
-		<div class = "searchbox">
-			<span class="icon"><i class="fa fa-search"></i></span>
-			<input type="search" id="search" placeholder="Search.."/>
-		</div>
-	</div>
+
+	<!-- Page Content -->
+	<div id="header"></div>
+	<div id="navigation"></div>
+	<div id="footer"></div>
+	<div id="body"></div>
+	<!-- JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="website/js/globalTemplate.js"></script>
 </body>
 
 </html>

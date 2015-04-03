@@ -1,0 +1,24 @@
+<div class = 'right-container'> 
+	{{#search}}
+		<h2>Search for Heroes now!</h2> 
+		<form>
+		<div class = "search-container">
+			<div class = 'form-group searchbox'>
+				<div class="input-group">
+					<input type='text' class="form-control" id='search' placeholder='Search..'>
+					<span class="input-group-btn">
+					<button type="button" class="btn btn-lg">Search!</button>
+					</span>
+				</div>
+			</div>
+			</div>
+		</form>
+	{{/search}}
+	{{#about}}
+		<h3>DotA2Drafts is a strategy website that will provide strategy and information about the game in a visual manner</h3>
+	{{/about}}
+	{{#draft}}
+		<h3>This is where my interactive drafting page will be </h3>
+		<div style = "width:500px; height:500px; opacity:0.5; background-color:white; color:black"> Draft heroes!</div>
+	{{/draft}}
+</div>

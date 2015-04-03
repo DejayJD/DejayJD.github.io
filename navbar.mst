@@ -1,0 +1,10 @@
+<div class="navbar">
+	<div class="nav-pills navbar-list">
+		<ul class="nav nav-pills navelement">
+		{{#nav}}
+	  		<li><a class="navlist" href="#{{href}}" >{{title}}</a></li>
+	    {{/nav}}
+		</ul>
+	</div>
+</div>
+<a href="#hello"><img src="{{logo}}" class="logo"></a>

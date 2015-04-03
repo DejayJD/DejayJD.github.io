@@ -1,0 +1,22 @@
+<div class = 'right-container'>
+	{{#hero}}
+	<ul>
+		<li>Hero name: {{name}} </li>
+		<li>Range: {{range}} </li>
+		<li>Heal: {{heal}} </li>
+		<li>Physical Damage: {{physical-damage}} </li>
+		<li>Magical Damage: {{magical-damage}} </li>
+		<li>Mobility: {{mobility}} </li>
+		<li>Consistent Disable: {{consistent-disable}} </li>
+		<li>Hard Disable: {{hard-disable}} </li>
+		<li>Push: {{push}} </li>
+		<li>Defend: {{defend}} </li>
+		<li>Laning: {{laning}} </li>
+		<li>Early Ganking: {{early-ganking}} </li>
+		<li>Mid-Game Ganking: {{mid-ganking}} </li>
+		<li>Support: {{support}} </li>
+		<li>Carry: {{carry}} </li>
+		<li>Possible Positions: {{position}} </li>
+		<li></ul>
+	{{/hero}}
+</div>
