@@ -1,10 +1,15 @@
-<div class="navbar">
+<div class="navbar navbar-fixed-top">
 	<div class="nav-pills navbar-list">
 		<ul class="nav nav-pills navelement">
-		{{#nav}}
-	  		<li><a class="navlist" href="#{{href}}" >{{title}}</a></li>
-	    {{/nav}}
+		{{#admin}}
+		  		<li><a class="navlist" href="" onclick="logout()" >LogOut</a></li>
+		{{/admin}}
+		{{^admin}}
+			{{#nav}}
+		  		<li><a class="navlist" href="#{{href}}" >{{title}}</a></li>
+		    {{/nav}}
+		{{/admin}}
 		</ul>
 	</div>
+	<a href="index.html"><img src="{{logo}}" class="logo"></a>
 </div>
-<a href="#hello"><img src="{{logo}}" class="logo"></a>
